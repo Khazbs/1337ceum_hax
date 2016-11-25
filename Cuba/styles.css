@@ -1,5 +1,6 @@
 .preview-img {
     width: 260px;
+    border: 3px outset white;
 }
 
 table {
@@ -9,5 +10,7 @@ table {
 body {
     padding-left: 50px;
     padding-right: 50px;
+    background-image: url(bg.jpg);
+    background-repeat: repeat;
     background-color: Bisque;
 }
