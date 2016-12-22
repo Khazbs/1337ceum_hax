@@ -1,10 +1,18 @@
 .preview-img {
-    width: 260px;
+    width: 315px;
     border: 3px outset white;
 }
 
 table {
     border-spacing: 10px;
+}
+
+td {
+    padding: 1px;
+}
+
+.navul {
+    padding: 0px;
 }
 
 body {
@@ -13,4 +21,64 @@ body {
     background-image: url(bg.jpg);
     background-repeat: repeat;
     background-color: Bisque;
+    font-size: 22px;
+}
+
+footer {
+    font-size: 18px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #FFFFFF;
+}
+    
+li.dropdown {
+    display: inline-block;
+}
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #EED2EE
+    z-index: 1337;
+}
+    
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #a4f2eb
+}
+    
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#scrollup {
+    position: fixed; 
+    opacity: 0.5; 
+    left: 10px; 
+    bottom: 150px; 
+    display: none; 
+    cursor: pointer;
+    z-index: 1488;
+}
+
+#scrollup img {
+    height: 100px;
 }

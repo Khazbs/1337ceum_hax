@@ -4,51 +4,93 @@
         <meta charset="utf-8">
         <title>✮ Куба ✮ Инфо ✮</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
     </head>
     <body>
+        <script src="scrollup.js" type="text/javascript"></script>
         <h1 align="center" class="big-header">Куба далека, Куба рядом!</h1>
-        <h3 align="center" class="navbar-subheader">Информация | <a href="map.html">Карта</a> | <a href="quiz.html">Викторина</a><h3>
-        <div class="generic-article-preview">
+        <div align="center">
+            <ul class="navul">
+                <li class="dropdown">
+                    <a class="dropbtn" href="index.html">Информация</a>
+                    <div class="dropdown-content">
+                        <a href="#republic">Республика Куба</a>
+                        <a href="#sea">Карибское море</a>
+                        <a href="#goods">Знаменитые продукты</a>
+                        <a href="#che">Че Гевара</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="map.html">Карта</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="quiz.html">Викторина</a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div id="republic" class="generic-article-preview">
             <table>
                 <tr>
-                    <td><h3 align="right" class="sub-header">Республика Куба</h3><img class="preview-img" src="http://cubagood.com/wp-content/uploads/2013/01/flickr-3008557420-original.jpg"></td>
+                    <td><h3 align="right" class="sub-header">Республика Куба</h3></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img class="preview-img" src="http://cubagood.com/wp-content/uploads/2013/01/flickr-3008557420-original.jpg"></td>
                     <td><p align="left">Респу́блика Ку́ба (исп. República de Cuba [reˈpuβlika ðe ˈkuβa]), неофициальное с 1959 года Остров Свободы — островное государство в северной части Карибского моря. Страна занимает территорию острова Куба в составе Больших Антильских островов, острова Хувентуд и множество более мелких островов. От Северной Америки Куба отделена Флоридским проливом на севере и Юкатанским проливом на западе. Столица и крупнейший город — Гавана.
-                    </p><p align="left"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B1%D0%B0">Подробнее →</a></p></td>
+                    </p><ul type="none"><li><p align="left"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B1%D0%B0" target="_blank"><u>Подробнее</u></a></p></li></ul></td>
                 </tr>
             </table>
         </div>
-        <div class="generic-article-preview">
+        <div id="sea" class="generic-article-preview">
             <table>
+                <tr>
+                    <td></td>
+                    <td><h3 align="left" class="sub-header">Карибское море</h3></td>
+                </tr>
                 <tr>
                     <td><p align="right">Карибское море - это не пристанище пиратов. Это восхитительно чистые и приятно теплые водные просторы для отдыха и наслаждения. Воды этого моря не только ласкают ваше тело своим комфортом, но и радуют ваш глаз своей потрясающей прозрачной лазурью.
-                    </p><p align="right"><a href="http://review-planet.ru/2011/06/karibskoe-more-fotografii/">← Фотографии</a></p></td>
-                    <td><h3 align="left" class="sub-header">Карибское море</h3><img class="preview-img" src="http://dxnews.com/upload/images/Cuba-T42US.jpg"></td>
+                    </p><ul type="none"><li><p align="right"><a href="http://review-planet.ru/2011/06/karibskoe-more-fotografii/" target="_blank"><u>Фотографии</u></a></p></li></ul></td>
+                    <td><img class="preview-img" src="http://dxnews.com/upload/images/Cuba-T42US.jpg"></td>
                 </tr>
             </table>
         </div>
-        <div class="generic-article-preview">
+        <div id="goods" class="generic-article-preview">
             <table>
                 <tr>
-                    <td><h3 align="right" class="sub-header">Знаменитые продукты</h3><img class="preview-img" src="http://www.ekatgid.ru/image/1420378664_483.jpg"></td>
+                    <td><h3 align="right" class="sub-header">Знаменитые продукты</h3></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img class="preview-img" src="http://www.ekatgid.ru/image/1420378664_483.jpg"></td>
                     <td><p align="left">Такие продукты, как кубинский кофе, кубинские сигары, кубинский ром - известны далеко и широко за пределами Кубы. Эти товары считаются лучшими на рынке за их потрясающий вкус и высокое качество.
                     </p><p align="left">
-                            <ul type="circle">
-                                <li><a href="http://coffemanka.ru/kubinskij-kofe/">Кофе</a></li>
-                                <li><a href="http://latintour.ru/kuba/cu-info/kubinskue-sigary.html">Сигары</a></li>
-                                <li><a href="http://nalivali.ru/alkogolnye-napitki-mira/rom/marki-roma/brutalnyj-kubinskij-rom.html">Ром</a></li>
-                            </ul>
-                        </p></td>
+                        <ul type="circle">
+                            <li><a href="http://coffemanka.ru/kubinskij-kofe/" target="_blank">Кофе</a></li>
+                            <li><a href="http://latintour.ru/kuba/cu-info/kubinskue-sigary.html" target="_blank">Сигары</a></li>
+                            <li><a href="http://nalivali.ru/alkogolnye-napitki-mira/rom/marki-roma/brutalnyj-kubinskij-rom.html" target="_blank">Ром</a></li>
+                        </ul>
+                    </p></td>
                 </tr>
             </table>
         </div>
-        <div class="generic-article-preview">
+        <div id="che" class="generic-article-preview">
             <table>
                 <tr>
+                    <td></td>
+                    <td><h3 align="left" class="sub-header">Че Гевара</h3></td>
+                </tr>
+                <tr>
                     <td><p align="right">В современном мире есть мало фигур, способных соперничать с Эрнесто Че Геварой во всемирной популярности. Он превратился в символ Революции, символ борьбы против любой лжи и несправедливости.
-                    </p><p align="right"><a href="http://shkolazhizni.ru/biographies/articles/13109/">← Краткая биография</a></p></td>
-                    <td><h3 align="left" class="sub-header">Че Гевара</h3><img class="preview-img" src="http://images.aif.ru/006/268/f590df7f5e770ee4b0f8ed1fd9117c5d.jpg"></td>
+                    </p><ul type="none"><li><p align="right"><a href="http://shkolazhizni.ru/biographies/articles/13109/" target="_blank"><u>Краткая биография</u></a></p></li></ul>
+                    <td><img class="preview-img" src="http://images.aif.ru/006/268/f590df7f5e770ee4b0f8ed1fd9117c5d.jpg"></td>
                 </tr>
             </table>
         </div>
+        <br>
+        <div id="scrollup" style="bottom: 10px;"><img alt="Прокрутить вверх" src="http://quantifying.com/wp-content/uploads/2015/09/Rise-to-the-top-logo-Copy.png"></div>
+        <footer align="center">
+            <p align="center">Автор: <a href="https://vk.com/arthur_khazbs" target="_blank">Arthur Khazbs</a></p>
+        </footer>
     </body>
 </html>
