@@ -24,6 +24,10 @@ body {
     font-size: 22px;
 }
 
+:link, :active, :visited {
+    color: black;
+}
+
 footer {
     font-size: 18px;
 }
@@ -67,6 +71,14 @@ li.dropdown {
     
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.advert {
+    width: 300px;
+}
+
+.advert img {
+    width: 250px;
 }
 
 #scrollup {
